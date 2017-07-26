@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.pokemon{
+    width: 60%;
+    vertical-align: top;
+    display: inline-block;
+}
+img{
+    width: 100px;
+}
+
+.info{
+    width: 30%;
+    height: 500px;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    border-top: 20px solid red;
+    border-right: 20px solid red;
+    border-left: 20px solid red;
+    border-bottom: 40px solid red;
+    
+}
+.info h1{
+    text-align: center;
+}
+.info img{
+    display: block;
+    margin: 0 auto;
+}
+.info h3,
+.info p{
+    margin-left: 30px;
+}
+.info li{
+    margin-left: 60px;
+}
